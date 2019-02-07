@@ -10,4 +10,4 @@ app.get("/synchronization", (req, res) => {
   res.json(today);
 });
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(process.env.PORT || port, () => console.log(`Example app listening on port ${port}!`));
