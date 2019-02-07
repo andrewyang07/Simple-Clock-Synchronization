@@ -18,12 +18,11 @@ cd Client
 npm install
 ```
 
-after that start both the server and the client
+after that start the client, server is already running under heroku: (https://blooming-falls-51922.herokuapp.com/synchronization), and the url of the server is already hard-coded into client, so all we need to do is start the client.
 
 ```bash
-node index.js
-cd ..
+cd Client
 node index.js
 ```
 
-go to `localhost:8000` to visited the client, client on the button to sync the time
+go to `localhost:8000` to visit the client, click on the button to sync the time
